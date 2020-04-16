@@ -107,6 +107,7 @@ public class Game
 		while(!valid) {
 			try {
 				num = in.nextInt();
+				in.nextLine();
 
 				if(num < 5 && num > 1) valid = true;
 				else System.out.println("Sorry you need to put a number from 2 - 4.");
